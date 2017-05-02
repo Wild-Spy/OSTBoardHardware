@@ -1,4 +1,4 @@
-update=Wed 26 Oct 2016 22:59:31 AEDT
+update=5/2/2017 2:00:27 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../../../WS Engineering/KiCad/Libraries/Schematic
@@ -58,5 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=MC_Schematic
 LibName31=/media/BlackMamba/Wild Spy/WS Engineering/KiCad/Libraries/Schematic/MC_Schematic
-[general]
-version=1
+LibName32=C:/Wild Spy/MC_Schematic
