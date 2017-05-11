@@ -228,16 +228,16 @@ $EndComp
 $Comp
 L UM6K33N U4
 U 1 1 5803421A
-P 9250 1550
-F 0 "U4" H 9450 1550 60  0000 C CNN
-F 1 "UM6K33N" H 9550 1600 60  0001 C CNN
-F 2 "MC_Footprint:SC88(SOT363)" H 9450 2050 60  0001 C CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 9800 2250 60  0001 C CNN
-F 4 "DigiKey" H 9350 1850 60  0001 C CNN "Supplier 1"
-F 5 "UM6K33NTNTR-ND" H 9450 1950 60  0001 C CNN "Supplier 1 Part Number"
-F 6 "$0.08638" H 9550 2050 60  0001 C CNN "Supplier 1 Cost"
-F 7 "AUD" H 9650 2150 60  0001 C CNN "Supplier 1 Currency"
-	1    9250 1550
+P 7350 2650
+F 0 "U4" H 7550 2650 60  0000 C CNN
+F 1 "UM6K33N" H 7650 2700 60  0001 C CNN
+F 2 "MC_Footprint:SC88(SOT363)" H 7550 3150 60  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 7900 3350 60  0001 C CNN
+F 4 "DigiKey" H 7450 2950 60  0001 C CNN "Supplier 1"
+F 5 "UM6K33NTNTR-ND" H 7550 3050 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "$0.08638" H 7650 3150 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" H 7750 3250 60  0001 C CNN "Supplier 1 Currency"
+	1    7350 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -271,16 +271,16 @@ $EndComp
 $Comp
 L UM6K33N U3
 U 2 1 580347ED
-P 7350 2650
-F 0 "U3" H 7550 2650 60  0000 C CNN
-F 1 "UM6K33N" H 7650 2700 60  0001 C CNN
-F 2 "MC_Footprint:SC88(SOT363)" H 7550 3150 60  0001 C CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 7900 3350 60  0001 C CNN
-F 4 "DigiKey" H 7450 2950 60  0001 C CNN "Supplier 1"
-F 5 "UM6K33NTNTR-ND" H 7550 3050 60  0001 C CNN "Supplier 1 Part Number"
-F 6 "$0.08638" H 7650 3150 60  0001 C CNN "Supplier 1 Cost"
-F 7 "AUD" H 7750 3250 60  0001 C CNN "Supplier 1 Currency"
-	2    7350 2650
+P 9250 1550
+F 0 "U3" H 9450 1550 60  0000 C CNN
+F 1 "UM6K33N" H 9550 1600 60  0001 C CNN
+F 2 "MC_Footprint:SC88(SOT363)" H 9450 2050 60  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 9800 2250 60  0001 C CNN
+F 4 "DigiKey" H 9350 1850 60  0001 C CNN "Supplier 1"
+F 5 "UM6K33NTNTR-ND" H 9450 1950 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "$0.08638" H 9550 2050 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" H 9650 2150 60  0001 C CNN "Supplier 1 Currency"
+	2    9250 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -835,9 +835,9 @@ F 3 "" H 4250 3000 50  0000 C CNN
 	1    4250 3000
 	1    0    0    -1  
 $EndComp
-Text Label 5650 2500 0    60   ~ 0
-~RTC_PEN
 Text Label 5650 2400 0    60   ~ 0
+~RTC_PEN
+Text Label 3950 2600 2    60   ~ 0
 RTC_~INT
 Text Label 5650 2100 0    60   ~ 0
 D-
@@ -897,7 +897,7 @@ U 1 1 590A49F4
 P 2300 6350
 F 0 "SWD1" H 2300 6650 50  0000 C CNN
 F 1 "CONN_01X05" V 2400 6350 50  0000 C CNN
-F 2 "OSTFootprints:SWD_PROG_HEADER" H 2300 6350 50  0001 C CNN
+F 2 "OSTFootprints:SWD_PROG_HEADER_L" H 2300 6350 50  0001 C CNN
 F 3 "" H 2300 6350 50  0001 C CNN
 	1    2300 6350
 	1    0    0    -1  
@@ -947,10 +947,10 @@ RTC
 Text Notes 2453 3112 0    60   ~ 0
 3.3V
 $Comp
-L +5V #PWR038
+L +5V #PWR036
 U 1 1 590F6CEC
 P 1650 3900
-F 0 "#PWR038" H 1650 3750 50  0001 C CNN
+F 0 "#PWR036" H 1650 3750 50  0001 C CNN
 F 1 "+5V" H 1650 4050 50  0000 C CNN
 F 2 "" H 1650 3900 50  0000 C CNN
 F 3 "" H 1650 3900 50  0000 C CNN
@@ -983,13 +983,13 @@ Text Notes 3100 4600 0    60   ~ 0
 From Datasheet:\nIf the PA24 and PA25 pins are not connected, \nit is recommended to enable a pull-up on PA24 and\nPA25 through input GPIO mode. The aim is to avoid \nan eventually extract power consumption (<1mA) \ndue to a not stable level on pad. The port PA24 and \nPA25 doesn't have Drive Strength option.
 Text Notes 3100 4800 0    60   ~ 12
 Does it count if the USB is just not plugged in? Or\nis this ok as long as we have the USB set up?
-Text Notes 4650 3850 1    40   ~ 0
+Text Notes 4650 3900 1    40   ~ 0
 SERCOM0/2[0]
-Text Notes 4750 3850 1    40   ~ 0
+Text Notes 4750 3900 1    40   ~ 0
 SERCOM0/2[1]
-Text Notes 4850 3850 1    40   ~ 0
+Text Notes 4850 3900 1    40   ~ 0
 SERCOM0/2[2]
-Text Notes 4950 3850 1    40   ~ 0
+Text Notes 4950 3900 1    40   ~ 0
 SERCOM0/2[3]
 Text Notes 3550 2400 2    40   ~ 0
 SERCOM0[0]
@@ -1028,10 +1028,10 @@ F 4 "5%" V 1050 7050 60  0001 C CNN "Accuracy"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L GND #PWR037
 U 1 1 5911D86F
 P 1050 7250
-F 0 "#PWR039" H 1050 7000 50  0001 C CNN
+F 0 "#PWR037" H 1050 7000 50  0001 C CNN
 F 1 "GND" H 1050 7100 50  0000 C CNN
 F 2 "" H 1050 7250 50  0000 C CNN
 F 3 "" H 1050 7250 50  0000 C CNN
@@ -1065,19 +1065,19 @@ Text Label 2400 3900 2    60   ~ 0
 BAT+
 Text Label 750  6950 1    60   ~ 0
 ~BatMeasureEn
-Text Label 3600 2600 0    60   ~ 0
+Text Label 3600 2700 0    60   ~ 0
 VBat/15
-Text Label 5150 1700 1    40   ~ 0
+Text Label 4950 3000 3    40   ~ 0
 ~BatMeasureEn
 Text Label 3050 5350 0    60   ~ 0
 PBus1_MTX
 Text Label 3050 5450 0    60   ~ 0
 PBus1_MRX
 $Comp
-L GND #PWR040
+L GND #PWR038
 U 1 1 59136849
 P 3050 5550
-F 0 "#PWR040" H 3050 5300 50  0001 C CNN
+F 0 "#PWR038" H 3050 5300 50  0001 C CNN
 F 1 "GND" H 3050 5400 50  0000 C CNN
 F 2 "" H 3050 5550 50  0000 C CNN
 F 3 "" H 3050 5550 50  0000 C CNN
@@ -1085,10 +1085,10 @@ F 3 "" H 3050 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR041
+L VCC #PWR039
 U 1 1 591368CC
 P 3050 5250
-F 0 "#PWR041" H 3050 5100 50  0001 C CNN
+F 0 "#PWR039" H 3050 5100 50  0001 C CNN
 F 1 "VCC" H 3050 5400 50  0000 C CNN
 F 2 "" H 3050 5250 50  0000 C CNN
 F 3 "" H 3050 5250 50  0000 C CNN
@@ -1103,7 +1103,7 @@ U 1 1 591369CC
 P 2850 5400
 F 0 "PBus1" H 2850 5650 50  0000 C CNN
 F 1 "CONN_01X04" V 2950 5400 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 2850 5400 50  0001 C CNN
+F 2 "OSTFootprints:Pin_Header_Straight_1x04_Pitch2.54mm" H 2850 5400 50  0001 C CNN
 F 3 "" H 2850 5400 50  0000 C CNN
 	1    2850 5400
 	-1   0    0    1   
@@ -1142,7 +1142,7 @@ F 3 "" H 7400 3400 50  0001 C CNN
 	1    7400 3400
 	1    0    0    -1  
 $EndComp
-Text Label 3650 2700 0    60   ~ 0
+Text Label 5150 1700 1    60   ~ 0
 LED
 Wire Wire Line
 	1200 4800 1500 4800
@@ -1516,7 +1516,7 @@ Wire Notes Line
 Wire Notes Line
 	6800 3950 6800 550 
 Wire Wire Line
-	3950 2700 3650 2700
+	3600 2700 3950 2700
 Wire Wire Line
 	7850 3400 7950 3400
 Text Label 7850 3400 0    60   ~ 0
@@ -1526,10 +1526,10 @@ LED Connected to PA07\n
 Wire Wire Line
 	7100 3400 7250 3400
 $Comp
-L GND #PWR042
+L GND #PWR040
 U 1 1 5911BDB2
 P 7100 3400
-F 0 "#PWR042" H 7100 3150 50  0001 C CNN
+F 0 "#PWR040" H 7100 3150 50  0001 C CNN
 F 1 "GND" H 7100 3250 50  0000 C CNN
 F 2 "" H 7100 3400 50  0000 C CNN
 F 3 "" H 7100 3400 50  0000 C CNN
@@ -1537,10 +1537,10 @@ F 3 "" H 7100 3400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR043
+L VCC #PWR041
 U 1 1 59115E50
 P 4250 3300
-F 0 "#PWR043" H 4250 3150 50  0001 C CNN
+F 0 "#PWR041" H 4250 3150 50  0001 C CNN
 F 1 "VCC" H 4250 3450 50  0000 C CNN
 F 2 "" H 4250 3300 50  0000 C CNN
 F 3 "" H 4250 3300 50  0000 C CNN
@@ -1549,12 +1549,11 @@ F 3 "" H 4250 3300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4450 3300 4250 3300
-Connection ~ 4450 3300
 $Comp
-L ATSAMD21E16B U?
+L ATSAMD21E16B U5
 U 1 1 5914505E
 P 4750 2400
-F 0 "U?" H 4200 2950 60  0000 C CNN
+F 0 "U5" H 4200 2950 60  0000 C CNN
 F 1 "ATSAMD21E16B" H 5500 1950 60  0000 C CNN
 F 2 "OSTFootprints:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4100 2850 60  0001 C CNN
 F 3 "http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf" H 4200 2950 60  0001 C CNN
@@ -1563,17 +1562,6 @@ F 5 "1611-ATSAMD21E18A-MUTCT-ND" H 4400 3150 60  0001 C CNN "Supplier 1 Part Num
 F 6 "ATSAMD21E18A-MUT" H 4500 3250 60  0001 C CNN "Manufacturer Part Number"
 	1    4750 2400
 	1    0    0    -1  
-$EndComp
-$Comp
-L JUMPER3-closed JP1
-U 1 1 59145DE3
-P 1900 3900
-F 0 "JP1" H 1700 3800 50  0000 L CNN
-F 1 "JUMPER3-closed" H 1900 4000 50  0000 C BNN
-F 2 "OSTFootprints:SOLDER-JUMPER_2-WAY-CLOSED" H 1850 3700 50  0001 C CNN
-F 3 "" H 1900 3900 50  0000 C CNN
-	1    1900 3900
-	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW1
@@ -1587,10 +1575,10 @@ F 3 "" H 7900 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR042
 U 1 1 59143C7E
 P 8300 3900
-F 0 "#PWR?" H 8300 3650 50  0001 C CNN
+F 0 "#PWR042" H 8300 3650 50  0001 C CNN
 F 1 "GND" H 8300 3750 50  0000 C CNN
 F 2 "" H 8300 3900 50  0000 C CNN
 F 3 "" H 8300 3900 50  0000 C CNN
@@ -1606,10 +1594,10 @@ Wire Wire Line
 Text Label 5050 3000 3    60   ~ 0
 BL_FW_UPDATE
 $Comp
-L ORD213 SW?
+L ORD213 SW2
 U 1 1 59147387
 P 7950 4350
-F 0 "SW?" H 7950 4450 50  0000 C CNN
+F 0 "SW2" H 7950 4450 50  0000 C CNN
 F 1 "ORD213" H 7950 4250 50  0000 C CNN
 F 2 "OSTFootprints:ORD213S-1" H 8380 4690 60  0001 C CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/OKI_Reed_Switch_ORD213.pdf" H 8050 4600 60  0001 C CNN
@@ -1626,10 +1614,10 @@ F 12 "SPST-NO" H 8850 5350 60  0001 C CNN "Type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR043
 U 1 1 59148235
 P 8250 4350
-F 0 "#PWR?" H 8250 4100 50  0001 C CNN
+F 0 "#PWR043" H 8250 4100 50  0001 C CNN
 F 1 "GND" H 8250 4200 50  0000 C CNN
 F 2 "" H 8250 4350 50  0000 C CNN
 F 3 "" H 8250 4350 50  0000 C CNN
@@ -1642,6 +1630,18 @@ Text Label 7450 4350 0    60   ~ 0
 REEDSW
 Wire Wire Line
 	7450 4350 7850 4350
-Text Label 4950 3000 3    60   ~ 0
+Text Label 6000 2500 2    60   ~ 0
 REEDSW
+$Comp
+L JUMPER3 JP1
+U 1 1 5914F4EF
+P 1900 3900
+F 0 "JP1" H 1950 3800 50  0000 L CNN
+F 1 "JUMPER3" H 1900 4000 50  0000 C BNN
+F 2 "OSTFootprints:SOLDER-JUMPER_2-WAY" H 1900 3900 50  0001 C CNN
+F 3 "" H 1900 3900 50  0000 C CNN
+	1    1900 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 3300
 $EndSCHEMATC
