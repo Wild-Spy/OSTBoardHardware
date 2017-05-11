@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Wild Spy Open Source Timer-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MC_Schematic
+LIBS:OSTSchematic
 LIBS:Wild Spy Open Source Timer-cache
 EELAYER 25 0
 EELAYER END
@@ -98,7 +100,7 @@ U 1 1 580255A8
 P 1600 1750
 F 0 "U1" H 1400 2100 60  0000 C CNN
 F 1 "DS3232SN" H 1550 850 60  0000 C CNN
-F 2 "Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm" H 1300 2000 60  0001 C CNN
+F 2 "OSTFootprints:SOIC-20_7.5x12.8mm_Pitch1.27mm" H 1300 2000 60  0001 C CNN
 F 3 "http://datasheets.maximintegrated.com/en/ds/DS3232.pdf" H 1400 2100 60  0001 C CNN
 F 4 "DigiKey" H 1500 2200 60  0001 C CNN "Supplier 1"
 F 5 "DS3232SN#T&RCT-ND" H 1600 2300 60  0001 C CNN "Supplier 1 Part Number"
@@ -113,7 +115,7 @@ U 1 1 58025892
 P 2150 1100
 F 0 "Q1" H 2450 1150 50  0000 R CNN
 F 1 "AO3415" H 2650 1050 50  0000 R CNN
-F 2 "MC_Footprint:SOT-23-HandSoldering" H 2350 1200 50  0001 C CNN
+F 2 "OSTFootprints:SOT-23-HandSoldering" H 2350 1200 50  0001 C CNN
 F 3 "http://aosmd.com/res/data_sheets/AO3415.pdf" H 2150 1100 50  0001 C CNN
 F 4 "-20V" H 2150 1100 60  0001 C CNN "Vdss"
 F 5 "53mOhm" H 2150 1100 60  0001 C CNN "Rds(on)"
@@ -186,7 +188,7 @@ U 1 1 58031BD6
 P 7850 1350
 F 0 "Q2" H 8150 1400 50  0000 R CNN
 F 1 "AO3415" H 8350 1300 50  0000 R CNN
-F 2 "MC_Footprint:SOT-23-HandSoldering" H 8050 1450 50  0001 C CNN
+F 2 "OSTFootprints:SOT-23-HandSoldering" H 8050 1450 50  0001 C CNN
 F 3 "http://aosmd.com/res/data_sheets/AO3415.pdf" H 7850 1350 50  0001 C CNN
 F 4 "-20V" H 7850 1350 60  0001 C CNN "Vdss"
 F 5 "53mOhm" H 7850 1350 60  0001 C CNN "Rds(on)"
@@ -244,7 +246,7 @@ U 1 1 580347CE
 P 7850 2450
 F 0 "Q3" H 8150 2500 50  0000 R CNN
 F 1 "AO3415" H 8350 2400 50  0000 R CNN
-F 2 "MC_Footprint:SOT-23-HandSoldering" H 8050 2550 50  0001 C CNN
+F 2 "OSTFootprints:SOT-23-HandSoldering" H 8050 2550 50  0001 C CNN
 F 3 "http://aosmd.com/res/data_sheets/AO3415.pdf" H 7850 2450 50  0001 C CNN
 F 4 "-20V" H 7850 2450 60  0001 C CNN "Vdss"
 F 5 "53mOhm" H 7850 2450 60  0001 C CNN "Rds(on)"
@@ -287,7 +289,7 @@ U 1 1 58034924
 P 9750 1350
 F 0 "Q4" H 10050 1400 50  0000 R CNN
 F 1 "AO3415" H 10250 1300 50  0000 R CNN
-F 2 "MC_Footprint:SOT-23-HandSoldering" H 9950 1450 50  0001 C CNN
+F 2 "OSTFootprints:SOT-23-HandSoldering" H 9950 1450 50  0001 C CNN
 F 3 "http://aosmd.com/res/data_sheets/AO3415.pdf" H 9750 1350 50  0001 C CNN
 F 4 "-20V" H 9750 1350 60  0001 C CNN "Vdss"
 F 5 "53mOhm" H 9750 1350 60  0001 C CNN "Rds(on)"
@@ -315,7 +317,7 @@ U 1 1 58034956
 P 9750 2450
 F 0 "Q5" H 10050 2500 50  0000 R CNN
 F 1 "AO3415" H 10250 2400 50  0000 R CNN
-F 2 "MC_Footprint:SOT-23-HandSoldering" H 9950 2550 50  0001 C CNN
+F 2 "OSTFootprints:SOT-23-HandSoldering" H 9950 2550 50  0001 C CNN
 F 3 "http://aosmd.com/res/data_sheets/AO3415.pdf" H 9750 2450 50  0001 C CNN
 F 4 "-20V" H 9750 2450 60  0001 C CNN "Vdss"
 F 5 "53mOhm" H 9750 2450 60  0001 C CNN "Rds(on)"
@@ -476,7 +478,7 @@ U 1 1 58091E52
 P 1850 3150
 F 0 "U2" H 1700 3250 60  0000 C CNN
 F 1 "TPS70933DBVR" H 1850 2850 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 1500 3250 60  0001 C CNN
+F 2 "OSTFootprints:SOT-23-5_HandSoldering" H 1500 3250 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps709.pdf" H 1700 3350 60  0001 C CNN
 F 4 "DigiKey" H 1850 3450 60  0001 C CNN "Supplier 1"
 F 5 "1.19" H 1950 3550 60  0001 C CNN "Supplier 1 Cost"
@@ -702,7 +704,7 @@ U 1 1 580E71BC
 P 900 4800
 F 0 "USB1" H 1250 4700 50  0000 C CNN
 F 1 "micro_USB" H 900 5000 50  0000 C CNN
-F 2 "MC_Footprint:micro_USB" V 850 4700 50  0001 C CNN
+F 2 "OSTFootprints:micro_USB" V 850 4700 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10118192.pdf" V 850 4700 50  0001 C CNN
 F 4 "DigiKey" H 1350 4800 60  0001 C CNN "Supplier 1"
 F 5 "609-4613-1-ND" H 1450 4900 60  0001 C CNN "Supplier 1 Part Number"
@@ -887,7 +889,7 @@ F 3 "" H 2050 4700 50  0000 C CNN
 $EndComp
 Text Label 2150 5100 0    40   ~ 0
 USBSENSE3.3
-Text Label 5650 2200 0    60   ~ 0
+Text Label 5150 3600 1    60   ~ 0
 USBSENSE3.3
 $Comp
 L CONN_01X05 SWD1
@@ -895,7 +897,7 @@ U 1 1 590A49F4
 P 2300 6350
 F 0 "SWD1" H 2300 6650 50  0000 C CNN
 F 1 "CONN_01X05" V 2400 6350 50  0000 C CNN
-F 2 "MC_Footprint:SWD_PROG_HEADER" H 2300 6350 50  0001 C CNN
+F 2 "OSTFootprints:SWD_PROG_HEADER" H 2300 6350 50  0001 C CNN
 F 3 "" H 2300 6350 50  0001 C CNN
 	1    2300 6350
 	1    0    0    -1  
@@ -934,59 +936,8 @@ Text Label 2100 6250 2    60   ~ 0
 SWDIO
 Text Label 2100 6350 2    60   ~ 0
 SWDCLK
-$Comp
-L CONN_02X04 Breakout1
-U 1 1 590ACA00
-P 2100 7200
-F 0 "Breakout1" H 2100 7450 50  0000 C CNN
-F 1 "CONN_02X04" H 2100 6950 50  0000 C CNN
-F 2 "MC_Footprint:4x2connnector_small" H 2100 6000 50  0001 C CNN
-F 3 "" H 2100 6000 50  0001 C CNN
-	1    2100 7200
-	1    0    0    -1  
-$EndComp
 Text Label 4850 3000 3    60   ~ 0
 PA10
-Text Label 4950 3000 3    60   ~ 0
-PA11
-Text Label 5050 3000 3    60   ~ 0
-PA14
-Text Label 5150 3000 3    60   ~ 0
-PA15
-Text Label 1850 7050 2    60   ~ 0
-PA08
-Text Label 1850 7150 2    60   ~ 0
-PA10
-Text Label 1850 7250 2    60   ~ 0
-PA14
-Text Label 2350 7050 0    60   ~ 0
-PA09
-Text Label 2350 7150 0    60   ~ 0
-PA11
-Text Label 2350 7250 0    60   ~ 0
-PA15
-$Comp
-L VCC #PWR036
-U 1 1 590AD882
-P 1850 7350
-F 0 "#PWR036" H 1850 7200 50  0001 C CNN
-F 1 "VCC" H 1850 7500 50  0000 C CNN
-F 2 "" H 1850 7350 50  0000 C CNN
-F 3 "" H 1850 7350 50  0000 C CNN
-	1    1850 7350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR037
-U 1 1 590AD8FC
-P 2350 7350
-F 0 "#PWR037" H 2350 7100 50  0001 C CNN
-F 1 "GND" H 2350 7200 50  0000 C CNN
-F 2 "" H 2350 7350 50  0000 C CNN
-F 3 "" H 2350 7350 50  0000 C CNN
-	1    2350 7350
-	0    -1   -1   0   
-$EndComp
 Text Notes 1600 5950 0    60   ~ 0
 Programming
 Text Notes 600  4450 0    60   ~ 0
@@ -995,17 +946,6 @@ Text Notes 600  650  0    60   ~ 0
 RTC
 Text Notes 2453 3112 0    60   ~ 0
 3.3V
-$Comp
-L JUMPER3 JP1
-U 1 1 590F5783
-P 1900 3900
-F 0 "JP1" H 1950 3800 50  0000 L CNN
-F 1 "JUMPER3" H 1900 4000 50  0000 C BNN
-F 2 "jumper:SOLDER-JUMPER_2-WAY" H 1900 3900 50  0001 C CNN
-F 3 "" H 1900 3900 50  0000 C CNN
-	1    1900 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L +5V #PWR038
 U 1 1 590F6CEC
@@ -1019,27 +959,25 @@ F 3 "" H 1650 3900 50  0000 C CNN
 $EndComp
 Text Notes 600  2950 0    60   ~ 0
 Power
-Text Notes 1650 6900 0    60   ~ 0
-Breakout
 Text Notes 3150 650  0    60   ~ 0
 MCU
 Text Notes 6900 650  0    60   ~ 0
 Channels
-Text Notes 6300 2700 0    40   ~ 0
+Text Notes 6150 2700 0    40   ~ 0
 SERCOM1/3[0]
-Text Notes 6300 2600 0    40   ~ 0
+Text Notes 6150 2600 0    40   ~ 0
 SERCOM1/3[1]
-Text Notes 6300 2500 0    40   ~ 0
+Text Notes 6150 2500 0    40   ~ 0
 SERCOM1/3[2]
-Text Notes 6300 2400 0    40   ~ 0
+Text Notes 6150 2400 0    40   ~ 0
 SERCOM1/3[3]
-Text Notes 6300 2200 0    40   ~ 0
+Text Notes 6150 2200 0    40   ~ 0
 SERCOM3/5[1]
-Text Notes 6300 2300 0    40   ~ 0
+Text Notes 6150 2300 0    40   ~ 0
 SERCOM3/5[0]
-Text Notes 6300 2100 0    40   ~ 0
+Text Notes 6150 2100 0    40   ~ 0
 SERCOM3/5[2]
-Text Notes 6300 2000 0    40   ~ 0
+Text Notes 6150 2000 0    40   ~ 0
 SERCOM3/5[3]
 Text Notes 3100 4600 0    60   ~ 0
 From Datasheet:\nIf the PA24 and PA25 pins are not connected, \nit is recommended to enable a pull-up on PA24 and\nPA25 through input GPIO mode. The aim is to avoid \nan eventually extract power consumption (<1mA) \ndue to a not stable level on pad. The port PA24 and \nPA25 doesn't have Drive Strength option.
@@ -1108,7 +1046,7 @@ U 1 1 591226FE
 P 950 6300
 F 0 "Q6" H 1250 6350 50  0000 R CNN
 F 1 "AO3415" H 1450 6250 50  0000 R CNN
-F 2 "MC_Footprint:SOT-23-HandSoldering" H 1150 6400 50  0001 C CNN
+F 2 "OSTFootprints:SOT-23-HandSoldering" H 1150 6400 50  0001 C CNN
 F 3 "http://aosmd.com/res/data_sheets/AO3415.pdf" H 950 6300 50  0001 C CNN
 F 4 "-20V" H 950 6300 60  0001 C CNN "Vdss"
 F 5 "53mOhm" H 950 6300 60  0001 C CNN "Rds(on)"
@@ -1185,39 +1123,23 @@ Peripheral Bus
 $Comp
 L R R11
 U 1 1 591137B5
-P 7700 3600
-F 0 "R11" V 7780 3600 50  0000 C CNN
-F 1 "1k" V 7700 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7630 3600 50  0001 C CNN
-F 3 "" H 7700 3600 50  0000 C CNN
-	1    7700 3600
+P 7700 3400
+F 0 "R11" V 7780 3400 50  0000 C CNN
+F 1 "1k" V 7700 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7630 3400 50  0001 C CNN
+F 3 "" H 7700 3400 50  0000 C CNN
+	1    7700 3400
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-Wild_Spy_Open_Source_Timer D1
 U 1 1 59114154
-P 7400 3600
-F 0 "D1" H 7400 3700 50  0000 C CNN
-F 1 "LED" H 7400 3500 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 7400 3600 50  0001 C CNN
-F 3 "" H 7400 3600 50  0001 C CNN
-	1    7400 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L ATSAMD21E16B U5
-U 1 1 5908321C
-P 4750 2400
-F 0 "U5" H 4200 2950 60  0000 C CNN
-F 1 "ATSAMD21E18B" H 5550 1900 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4100 2850 60  0001 C CNN
-F 3 "http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf" H 4200 2950 60  0001 C CNN
-F 4 "DigiKey" H 4750 2400 60  0001 C CNN "Supplier 1"
-F 5 "1611-ATSAMD21E18A-MUTCT-ND" H 4750 2400 60  0001 C CNN "Supplier 1 Part Number"
-F 6 "ATSAMD21E18A-MUT" H 4750 2400 60  0001 C CNN "Manufacturer Part Number"
-F 7 "AUD" H 4750 2400 60  0001 C CNN "Supplier 1 Currency"
-F 8 "3.64" H 4750 2400 60  0001 C CNN "Supplier 1 Cost"
-	1    4750 2400
+P 7400 3400
+F 0 "D1" H 7400 3500 50  0000 C CNN
+F 1 "LED" H 7400 3300 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 7400 3400 50  0001 C CNN
+F 3 "" H 7400 3400 50  0001 C CNN
+	1    7400 3400
 	1    0    0    -1  
 $EndComp
 Text Label 3650 2700 0    60   ~ 0
@@ -1464,8 +1386,6 @@ Wire Wire Line
 	2150 5100 2050 5100
 Wire Wire Line
 	2050 5450 2050 5400
-Wire Wire Line
-	5650 2200 6250 2200
 Connection ~ 2050 5100
 Wire Wire Line
 	5050 1700 5050 1300
@@ -1519,14 +1439,6 @@ Wire Notes Line
 Wire Notes Line
 	2700 2850 550  2850
 Wire Notes Line
-	1600 6800 2600 6800
-Wire Notes Line
-	2600 6800 2600 7500
-Wire Notes Line
-	2600 7500 1600 7500
-Wire Notes Line
-	1600 7500 1600 6800
-Wire Notes Line
 	3100 550  6800 550 
 Wire Notes Line
 	3100 3950 6800 3950
@@ -1547,7 +1459,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 3250 5050 3000
 Wire Wire Line
-	5150 3250 5150 3000
+	5150 3000 5150 3600
 Wire Wire Line
 	1150 6900 1050 6900
 Wire Wire Line
@@ -1606,29 +1518,29 @@ Wire Notes Line
 Wire Wire Line
 	3950 2700 3650 2700
 Wire Wire Line
-	7850 3600 7950 3600
-Text Label 7850 3600 0    60   ~ 0
+	7850 3400 7950 3400
+Text Label 7850 3400 0    60   ~ 0
 LED
-Text Notes 7100 3850 0    60   ~ 0
+Text Notes 7100 3650 0    60   ~ 0
 LED Connected to PA07\n
 Wire Wire Line
-	7100 3600 7250 3600
+	7100 3400 7250 3400
 $Comp
 L GND #PWR042
 U 1 1 5911BDB2
-P 7100 3600
-F 0 "#PWR042" H 7100 3350 50  0001 C CNN
-F 1 "GND" H 7100 3450 50  0000 C CNN
-F 2 "" H 7100 3600 50  0000 C CNN
-F 3 "" H 7100 3600 50  0000 C CNN
-	1    7100 3600
+P 7100 3400
+F 0 "#PWR042" H 7100 3150 50  0001 C CNN
+F 1 "GND" H 7100 3250 50  0000 C CNN
+F 2 "" H 7100 3400 50  0000 C CNN
+F 3 "" H 7100 3400 50  0000 C CNN
+	1    7100 3400
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR?
+L VCC #PWR043
 U 1 1 59115E50
 P 4250 3300
-F 0 "#PWR?" H 4250 3150 50  0001 C CNN
+F 0 "#PWR043" H 4250 3150 50  0001 C CNN
 F 1 "VCC" H 4250 3450 50  0000 C CNN
 F 2 "" H 4250 3300 50  0000 C CNN
 F 3 "" H 4250 3300 50  0000 C CNN
@@ -1638,4 +1550,98 @@ $EndComp
 Wire Wire Line
 	4450 3300 4250 3300
 Connection ~ 4450 3300
+$Comp
+L ATSAMD21E16B U?
+U 1 1 5914505E
+P 4750 2400
+F 0 "U?" H 4200 2950 60  0000 C CNN
+F 1 "ATSAMD21E16B" H 5500 1950 60  0000 C CNN
+F 2 "OSTFootprints:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4100 2850 60  0001 C CNN
+F 3 "http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf" H 4200 2950 60  0001 C CNN
+F 4 "DigiKey" H 4300 3050 60  0001 C CNN "Supplier 1"
+F 5 "1611-ATSAMD21E18A-MUTCT-ND" H 4400 3150 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "ATSAMD21E18A-MUT" H 4500 3250 60  0001 C CNN "Manufacturer Part Number"
+	1    4750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER3-closed JP1
+U 1 1 59145DE3
+P 1900 3900
+F 0 "JP1" H 1700 3800 50  0000 L CNN
+F 1 "JUMPER3-closed" H 1900 4000 50  0000 C BNN
+F 2 "OSTFootprints:SOLDER-JUMPER_2-WAY-CLOSED" H 1850 3700 50  0001 C CNN
+F 3 "" H 1900 3900 50  0000 C CNN
+	1    1900 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 5914137D
+P 7900 3900
+F 0 "SW1" H 8050 4010 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 3820 50  0000 C CNN
+F 2 "OSTFootprints:KMT071NGJLHS_3x2.6mm_switch" H 7900 3900 50  0001 C CNN
+F 3 "" H 7900 3900 50  0000 C CNN
+	1    7900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59143C7E
+P 8300 3900
+F 0 "#PWR?" H 8300 3650 50  0001 C CNN
+F 1 "GND" H 8300 3750 50  0000 C CNN
+F 2 "" H 8300 3900 50  0000 C CNN
+F 3 "" H 8300 3900 50  0000 C CNN
+	1    8300 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 3900 8300 3900
+Text Label 6950 3900 0    60   ~ 0
+BL_FW_UPDATE
+Wire Wire Line
+	6950 3900 7600 3900
+Text Label 5050 3000 3    60   ~ 0
+BL_FW_UPDATE
+$Comp
+L ORD213 SW?
+U 1 1 59147387
+P 7950 4350
+F 0 "SW?" H 7950 4450 50  0000 C CNN
+F 1 "ORD213" H 7950 4250 50  0000 C CNN
+F 2 "OSTFootprints:ORD213S-1" H 8380 4690 60  0001 C CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/OKI_Reed_Switch_ORD213.pdf" H 8050 4600 60  0001 C CNN
+F 4 "Digi Key" H 8050 4550 60  0001 C CNN "Supplier 1"
+F 5 "374-1087-ND" H 8150 4650 60  0001 C CNN "Supplier Part Number 1"
+F 6 "2.07" H 8250 4750 60  0001 C CNN "Supplier Cost 1"
+F 7 "AUD" H 8350 4850 60  0001 C CNN "Supplier Currency 1"
+F 8 "Standex-Meder Electronics" H 8450 4950 60  0001 C CNN "Manufacturer 1"
+F 9 "ORD213S-1-1015" H 8550 5050 60  0001 C CNN "Manufacturer Part Number 1"
+F 10 "24 V" H 8650 5150 60  0001 C CNN "Rated Voltage"
+F 11 "100mA" H 8750 5250 60  0001 C CNN "Switching Current"
+F 12 "SPST-NO" H 8850 5350 60  0001 C CNN "Type"
+	1    7950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59148235
+P 8250 4350
+F 0 "#PWR?" H 8250 4100 50  0001 C CNN
+F 1 "GND" H 8250 4200 50  0000 C CNN
+F 2 "" H 8250 4350 50  0000 C CNN
+F 3 "" H 8250 4350 50  0000 C CNN
+	1    8250 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 4350 8050 4350
+Text Label 7450 4350 0    60   ~ 0
+REEDSW
+Wire Wire Line
+	7450 4350 7850 4350
+Text Label 4950 3000 3    60   ~ 0
+REEDSW
 $EndSCHEMATC
