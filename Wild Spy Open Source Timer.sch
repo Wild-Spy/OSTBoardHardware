@@ -216,7 +216,7 @@ U 1 1 580341A9
 P 7350 1550
 F 0 "U3" H 7550 1550 60  0000 C CNN
 F 1 "UM6K33N" H 7650 1600 60  0001 C CNN
-F 2 "MC_Footprint:SC88(SOT363)" H 7550 2050 60  0001 C CNN
+F 2 "OSTFootprints:SC88(SOT363)" H 7550 2050 60  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 7900 2250 60  0001 C CNN
 F 4 "DigiKey" H 7450 1850 60  0001 C CNN "Supplier 1"
 F 5 "UM6K33NTNTR-ND" H 7550 1950 60  0001 C CNN "Supplier 1 Part Number"
@@ -231,7 +231,7 @@ U 1 1 5803421A
 P 7350 2650
 F 0 "U4" H 7550 2650 60  0000 C CNN
 F 1 "UM6K33N" H 7650 2700 60  0001 C CNN
-F 2 "MC_Footprint:SC88(SOT363)" H 7550 3150 60  0001 C CNN
+F 2 "OSTFootprints:SC88(SOT363)" H 7550 3150 60  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 7900 3350 60  0001 C CNN
 F 4 "DigiKey" H 7450 2950 60  0001 C CNN "Supplier 1"
 F 5 "UM6K33NTNTR-ND" H 7550 3050 60  0001 C CNN "Supplier 1 Part Number"
@@ -274,7 +274,7 @@ U 2 1 580347ED
 P 9250 1550
 F 0 "U3" H 9450 1550 60  0000 C CNN
 F 1 "UM6K33N" H 9550 1600 60  0001 C CNN
-F 2 "MC_Footprint:SC88(SOT363)" H 9450 2050 60  0001 C CNN
+F 2 "OSTFootprints:SC88(SOT363)" H 9450 2050 60  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 9800 2250 60  0001 C CNN
 F 4 "DigiKey" H 9350 1850 60  0001 C CNN "Supplier 1"
 F 5 "UM6K33NTNTR-ND" H 9450 1950 60  0001 C CNN "Supplier 1 Part Number"
@@ -345,7 +345,7 @@ U 2 1 58034A25
 P 9250 2650
 F 0 "U4" H 9450 2650 60  0000 C CNN
 F 1 "UM6K33N" H 9550 2700 60  0001 C CNN
-F 2 "MC_Footprint:SC88(SOT363)" H 9450 3150 60  0001 C CNN
+F 2 "OSTFootprints:SC88(SOT363)" H 9450 3150 60  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 9800 3350 60  0001 C CNN
 F 4 "DigiKey" H 9350 2950 60  0001 C CNN "Supplier 1"
 F 5 "UM6K33NTNTR-ND" H 9450 3050 60  0001 C CNN "Supplier 1 Part Number"
@@ -1137,7 +1137,7 @@ U 1 1 59114154
 P 7400 3400
 F 0 "D1" H 7400 3500 50  0000 C CNN
 F 1 "LED" H 7400 3300 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 7400 3400 50  0001 C CNN
+F 2 "OSTFootprints:LED_0603" H 7400 3400 50  0001 C CNN
 F 3 "" H 7400 3400 50  0001 C CNN
 	1    7400 3400
 	1    0    0    -1  

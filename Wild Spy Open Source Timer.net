@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/mcochrane/build/OSTBoardHardware/Wild Spy Open Source Timer.sch")
-    (date "Thu 11 May 2017 23:44:32 AEST")
+    (date "Fri 12 May 2017 11:58:27 AEST")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -63,7 +63,7 @@
       (tstamp 58031BD6))
     (comp (ref U3)
       (value UM6K33N)
-      (footprint "MC_Footprint:SC88(SOT363)")
+      (footprint "OSTFootprints:SC88(SOT363)")
       (datasheet http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf)
       (fields
         (field (name "Supplier 1") DigiKey)
@@ -75,7 +75,7 @@
       (tstamp 580341A9))
     (comp (ref U4)
       (value UM6K33N)
-      (footprint "MC_Footprint:SC88(SOT363)")
+      (footprint "OSTFootprints:SC88(SOT363)")
       (datasheet http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf)
       (fields
         (field (name "Supplier 1") DigiKey)
@@ -335,7 +335,7 @@
       (tstamp 591137B5))
     (comp (ref D1)
       (value LED)
-      (footprint LEDs:LED_0603)
+      (footprint OSTFootprints:LED_0603)
       (libsource (lib "Wild Spy Open Source Timer-rescue") (part LED-RESCUE-Wild_Spy_Open_Source_Timer))
       (sheetpath (names /) (tstamps /))
       (tstamp 59114154))
@@ -690,14 +690,14 @@
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name shield) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical MC_Schematic)
-      (uri "/media/WorkRed/Wild Spy/WS Engineering/KiCad/Libraries/Schematic/MC_Schematic.lib"))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical "Wild Spy Open Source Timer-rescue")
-      (uri "/home/mcochrane/build/OSTBoardHardware/Wild Spy Open Source Timer-rescue.lib")))
+      (uri "/home/mcochrane/build/OSTBoardHardware/Wild Spy Open Source Timer-rescue.lib"))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical MC_Schematic)
+      (uri "/media/WorkRed/Wild Spy/WS Engineering/KiCad/Libraries/Schematic/MC_Schematic.lib")))
   (nets
     (net (code 1) (name "Net-(CH1-Pad2)")
       (node (ref CH1) (pin 2))
