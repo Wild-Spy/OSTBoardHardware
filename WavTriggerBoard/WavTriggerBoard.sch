@@ -48,7 +48,7 @@ U 1 1 5922212D
 P 1400 7350
 F 0 "J?" H 1400 7500 50  0000 C CNN
 F 1 "CONN_01X02" V 1500 7350 50  0000 C CNN
-F 2 "" H 1400 7350 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1400 7350 50  0001 C CNN
 F 3 "" H 1400 7350 50  0001 C CNN
 	1    1400 7350
 	0    1    1    0   
@@ -59,7 +59,7 @@ U 1 1 59222295
 P 2050 7350
 F 0 "J?" H 2050 7500 50  0000 C CNN
 F 1 "CONN_01X02" V 2150 7350 50  0000 C CNN
-F 2 "" H 2050 7350 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2050 7350 50  0001 C CNN
 F 3 "" H 2050 7350 50  0001 C CNN
 	1    2050 7350
 	0    1    1    0   
@@ -70,7 +70,7 @@ U 1 1 592222E1
 P 2650 7350
 F 0 "J?" H 2650 7500 50  0000 C CNN
 F 1 "CONN_01X02" V 2750 7350 50  0000 C CNN
-F 2 "" H 2650 7350 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2650 7350 50  0001 C CNN
 F 3 "" H 2650 7350 50  0001 C CNN
 	1    2650 7350
 	0    1    1    0   
@@ -78,12 +78,12 @@ $EndComp
 $Comp
 L CONN_01X01 J?
 U 1 1 59222481
-P 3200 7350
-F 0 "J?" H 3200 7450 50  0000 C CNN
-F 1 "CONN_01X01" V 3300 7350 50  0000 C CNN
-F 2 "" H 3200 7350 50  0001 C CNN
-F 3 "" H 3200 7350 50  0001 C CNN
-	1    3200 7350
+P 3250 7350
+F 0 "J?" H 3250 7450 50  0000 C CNN
+F 1 "CONN_01X01" V 3350 7350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3250 7350 50  0001 C CNN
+F 3 "" H 3250 7350 50  0001 C CNN
+	1    3250 7350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -109,7 +109,7 @@ Text Label 2600 7150 1    60   ~ 0
 WavTrigVin
 Text Label 2700 7150 1    60   ~ 0
 GND
-Text Label 3200 7150 1    60   ~ 0
+Text Label 3250 7150 1    60   ~ 0
 AmpEnableOut
 Text Label 5600 2150 1    60   ~ 0
 12V
@@ -133,10 +133,6 @@ Text Label 5300 3050 2    60   ~ 0
 WavTrigPower
 Text Label 5600 3250 3    60   ~ 0
 GND
-Text HLabel 5150 2400 0    60   Input ~ 0
-AO3415
-Text HLabel 3950 3150 0    60   Input ~ 0
-BSH103
 Text Label 3100 2950 2    60   ~ 0
 AmpEnable
 Text Label 3400 3150 3    60   ~ 0
@@ -177,17 +173,13 @@ U 1 1 5922BD82
 P 3300 2950
 F 0 "Q?" H 3500 3000 50  0000 L CNN
 F 1 "Q_NMOS_GSD" H 3500 2900 50  0000 L CNN
-F 2 "" H 3500 3050 50  0001 C CNN
+F 2 "MC_Footprint:SOT-23-HandSoldering" H 3500 3050 50  0001 C CNN
 F 3 "" H 3300 2950 50  0001 C CNN
 	1    3300 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5600 2450 5600 2850
-Text HLabel 6100 3300 0    60   Input ~ 0
-BSH103
-Text HLabel 2900 2300 0    60   Input ~ 0
-BSH203
 Wire Wire Line
 	5300 2150 5300 2350
 Wire Wire Line
@@ -198,7 +190,7 @@ U 1 1 5922DE74
 P 5500 3050
 F 0 "Q?" H 5700 3100 50  0000 L CNN
 F 1 "Q_NMOS_GSD" H 5700 3000 50  0000 L CNN
-F 2 "" H 5700 3150 50  0001 C CNN
+F 2 "MC_Footprint:SOT-23-HandSoldering" H 5700 3150 50  0001 C CNN
 F 3 "" H 5500 3050 50  0001 C CNN
 	1    5500 3050
 	1    0    0    -1  
@@ -227,4 +219,16 @@ Wire Notes Line
 	1000 6350 3650 6350
 Wire Notes Line
 	3650 6350 3650 7550
+Text Notes 5750 3250 0    60   ~ 0
+BSH103\n
+Text Notes 3550 3300 0    60   ~ 0
+BSH103\n
+Text Notes 2650 2300 0    60   ~ 0
+BSH203\n
+Text Notes 4800 2300 0    60   ~ 0
+AO3415\n
+Text Notes 7400 7500 0    60   ~ 0
+Wave Trigger Board\n
+Text Notes 8300 7650 0    60   ~ 0
+22 May 17
 $EndSCHEMATC
