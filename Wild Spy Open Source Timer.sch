@@ -1529,7 +1529,7 @@ Wire Wire Line
 Text Label 7850 3400 0    60   ~ 0
 LED
 Text Notes 7100 3650 0    60   ~ 0
-LED Connected to PA07\n
+LED Connected to PA27\n
 Wire Wire Line
 	7100 3400 7250 3400
 $Comp
@@ -1561,7 +1561,7 @@ L ATSAMD21E16B U5
 U 1 1 5914505E
 P 4750 2400
 F 0 "U5" H 4200 2950 60  0000 C CNN
-F 1 "ATSAMD21E16B" H 5500 1950 60  0000 C CNN
+F 1 "ATSAMD21E18A" H 5500 1950 60  0000 C CNN
 F 2 "OSTFootprints:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4100 2850 60  0001 C CNN
 F 3 "http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf" H 4200 2950 60  0001 C CNN
 F 4 "DigiKey" H 4300 3050 60  0001 C CNN "Supplier 1"
