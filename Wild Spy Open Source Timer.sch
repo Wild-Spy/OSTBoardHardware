@@ -899,52 +899,52 @@ USBSENSE3.3
 $Comp
 L CONN_01X05 SWD1
 U 1 1 590A49F4
-P 2300 6350
-F 0 "SWD1" H 2300 6650 50  0000 C CNN
-F 1 "CONN_01X05" V 2400 6350 50  0000 C CNN
-F 2 "OSTFootprints:SWD_PROG_HEADER_L" H 2300 6350 50  0001 C CNN
-F 3 "" H 2300 6350 50  0001 C CNN
-F 4 "dnf" H 2300 6350 60  0001 C CNN "fit_field"
-	1    2300 6350
+P 4350 5450
+F 0 "SWD1" H 4350 5750 50  0000 C CNN
+F 1 "CONN_01X05" V 4450 5450 50  0000 C CNN
+F 2 "OSTFootprints:SWD_PROG_HEADER_L" H 4350 5450 50  0001 C CNN
+F 3 "" H 4350 5450 50  0001 C CNN
+F 4 "dnf" H 4350 5450 60  0001 C CNN "fit_field"
+	1    4350 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR034
 U 1 1 590A4E37
-P 2100 6150
-F 0 "#PWR034" H 2100 6000 50  0001 C CNN
-F 1 "VCC" H 2100 6300 50  0000 C CNN
-F 2 "" H 2100 6150 50  0000 C CNN
-F 3 "" H 2100 6150 50  0000 C CNN
-	1    2100 6150
+P 4150 5250
+F 0 "#PWR034" H 4150 5100 50  0001 C CNN
+F 1 "VCC" H 4150 5400 50  0000 C CNN
+F 2 "" H 4150 5250 50  0000 C CNN
+F 3 "" H 4150 5250 50  0000 C CNN
+	1    4150 5250
 	1    0    0    -1  
 $EndComp
 Text Label 5050 1650 1    60   ~ 0
 NRESET
-Text Label 2100 6450 2    60   ~ 0
+Text Label 4150 5550 2    60   ~ 0
 NRESET
 $Comp
 L GND #PWR035
 U 1 1 590A6395
-P 2100 6550
-F 0 "#PWR035" H 2100 6300 50  0001 C CNN
-F 1 "GND" H 2100 6400 50  0000 C CNN
-F 2 "" H 2100 6550 50  0000 C CNN
-F 3 "" H 2100 6550 50  0000 C CNN
-	1    2100 6550
+P 4150 5650
+F 0 "#PWR035" H 4150 5400 50  0001 C CNN
+F 1 "GND" H 4150 5500 50  0000 C CNN
+F 2 "" H 4150 5650 50  0000 C CNN
+F 3 "" H 4150 5650 50  0000 C CNN
+	1    4150 5650
 	1    0    0    -1  
 $EndComp
 Text Label 4450 1700 1    60   ~ 0
 SWDIO
 Text Label 4550 1700 1    60   ~ 0
 SWDCLK
-Text Label 2100 6250 2    60   ~ 0
+Text Label 4150 5350 2    60   ~ 0
 SWDIO
-Text Label 2100 6350 2    60   ~ 0
+Text Label 4150 5450 2    60   ~ 0
 SWDCLK
 Text Label 4850 3000 3    60   ~ 0
 PA10
-Text Notes 1600 5950 0    60   ~ 0
+Text Notes 3650 5050 0    60   ~ 0
 Programming
 Text Notes 600  4450 0    60   ~ 0
 USB
@@ -1012,69 +1012,69 @@ SERCOM1[0]
 $Comp
 L R R3
 U 1 1 5911D863
-P 1050 6750
-F 0 "R3" V 1130 6750 50  0000 C CNN
-F 1 "150k" V 1050 6750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 6750 50  0001 C CNN
-F 3 "" H 1050 6750 50  0000 C CNN
-F 4 "5%" V 1050 6750 60  0001 C CNN "Accuracy"
-	1    1050 6750
+P 1550 6900
+F 0 "R3" V 1630 6900 50  0000 C CNN
+F 1 "150k" V 1550 6900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1480 6900 50  0001 C CNN
+F 3 "" H 1550 6900 50  0000 C CNN
+F 4 "5%" V 1550 6900 60  0001 C CNN "Accuracy"
+	1    1550 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R8
 U 1 1 5911D869
-P 1050 7050
-F 0 "R8" V 1130 7050 50  0000 C CNN
-F 1 "10k" V 1050 7050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 7050 50  0001 C CNN
-F 3 "" H 1050 7050 50  0000 C CNN
-F 4 "5%" V 1050 7050 60  0001 C CNN "Accuracy"
-	1    1050 7050
+P 1550 7200
+F 0 "R8" V 1630 7200 50  0000 C CNN
+F 1 "10k" V 1550 7200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1480 7200 50  0001 C CNN
+F 3 "" H 1550 7200 50  0000 C CNN
+F 4 "5%" V 1550 7200 60  0001 C CNN "Accuracy"
+	1    1550 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR037
 U 1 1 5911D86F
-P 1050 7250
-F 0 "#PWR037" H 1050 7000 50  0001 C CNN
-F 1 "GND" H 1050 7100 50  0000 C CNN
-F 2 "" H 1050 7250 50  0000 C CNN
-F 3 "" H 1050 7250 50  0000 C CNN
-	1    1050 7250
+P 1550 7400
+F 0 "#PWR037" H 1550 7150 50  0001 C CNN
+F 1 "GND" H 1550 7250 50  0000 C CNN
+F 2 "" H 1550 7400 50  0000 C CNN
+F 3 "" H 1550 7400 50  0000 C CNN
+	1    1550 7400
 	1    0    0    -1  
 $EndComp
-Text Label 1150 6900 0    60   ~ 0
+Text Label 1650 7050 0    60   ~ 0
 VBat/15
 $Comp
 L Q_PMOS_GSD Q6
 U 1 1 591226FE
-P 950 6300
-F 0 "Q6" H 1250 6350 50  0000 R CNN
-F 1 "AO3415" H 1450 6250 50  0000 R CNN
-F 2 "OSTFootprints:SOT-23-HandSoldering" H 1150 6400 50  0001 C CNN
-F 3 "http://aosmd.com/res/data_sheets/AO3415.pdf" H 950 6300 50  0001 C CNN
-F 4 "-20V" H 950 6300 60  0001 C CNN "Vdss"
-F 5 "53mOhm" H 950 6300 60  0001 C CNN "Rds(on)"
-F 6 "785-1010-2-ND" H 950 6300 60  0001 C CNN "Supplier 1 Part Number"
-F 7 "DigiKey" H 950 6300 60  0001 C CNN "Supplier 1"
-F 8 "0.11771" H 950 6300 60  0001 C CNN "Supplier 1 Cost"
-F 9 "AUD" H 950 6300 60  0001 C CNN "Supplier 1 Currency"
-	1    950  6300
+P 1450 6450
+F 0 "Q6" H 1750 6500 50  0000 R CNN
+F 1 "AO3415" H 1950 6400 50  0000 R CNN
+F 2 "OSTFootprints:SOT-23-HandSoldering" H 1650 6550 50  0001 C CNN
+F 3 "http://aosmd.com/res/data_sheets/AO3415.pdf" H 1450 6450 50  0001 C CNN
+F 4 "-20V" H 1450 6450 60  0001 C CNN "Vdss"
+F 5 "53mOhm" H 1450 6450 60  0001 C CNN "Rds(on)"
+F 6 "785-1010-2-ND" H 1450 6450 60  0001 C CNN "Supplier 1 Part Number"
+F 7 "DigiKey" H 1450 6450 60  0001 C CNN "Supplier 1"
+F 8 "0.11771" H 1450 6450 60  0001 C CNN "Supplier 1 Cost"
+F 9 "AUD" H 1450 6450 60  0001 C CNN "Supplier 1 Currency"
+	1    1450 6450
 	1    0    0    1   
 $EndComp
-Text Label 800  6050 0    60   ~ 0
+Text Label 1250 6050 0    60   ~ 0
 VAA
 Text Label 700  3650 1    60   ~ 0
 BAT+
 Text Label 2400 3900 2    60   ~ 0
 BAT+
-Text Label 750  6950 1    60   ~ 0
-~BatMeasureEn
+Text Label 700  7350 1    60   ~ 0
+BatMeasureEn
 Text Label 3600 2700 0    60   ~ 0
 VBat/15
-Text Label 4950 3000 3    40   ~ 0
-~BatMeasureEn
+Text Label 4950 1200 3    40   ~ 0
+BatMeasureEn
 Text Label 3050 5350 0    60   ~ 0
 PBus1_MTX
 Text Label 3050 5450 0    60   ~ 0
@@ -1408,13 +1408,13 @@ Wire Wire Line
 Wire Wire Line
 	4650 800  4650 1700
 Wire Notes Line
-	2500 5850 2500 6750
+	4550 4950 4550 5850
 Wire Notes Line
-	2500 6750 1600 6750
+	4550 5850 3650 5850
 Wire Notes Line
-	1600 6750 1600 5850
+	3650 5850 3650 4950
 Wire Notes Line
-	1600 5850 2500 5850
+	3650 4950 4550 4950
 Wire Notes Line
 	550  4350 2700 4350
 Wire Notes Line
@@ -1462,22 +1462,18 @@ Wire Notes Line
 Wire Wire Line
 	4850 3250 4850 3000
 Wire Wire Line
-	4950 3250 4950 3000
-Wire Wire Line
 	5050 3250 5050 3000
 Wire Wire Line
 	5150 3000 5150 3600
 Wire Wire Line
-	1150 6900 1050 6900
+	1650 7050 1550 7050
 Wire Wire Line
-	1050 7250 1050 7200
-Connection ~ 1050 6900
+	1550 7400 1550 7350
+Connection ~ 1550 7050
 Wire Wire Line
-	1050 6500 1050 6600
+	1550 6650 1550 6750
 Wire Wire Line
-	1050 6050 1050 6100
-Wire Wire Line
-	1050 6050 800  6050
+	1550 6050 1550 6250
 Wire Wire Line
 	5150 1700 5150 1250
 Wire Wire Line
@@ -1488,16 +1484,6 @@ Wire Wire Line
 	3550 5350 3050 5350
 Wire Wire Line
 	3050 5450 3550 5450
-Wire Wire Line
-	750  6300 750  6950
-Wire Notes Line
-	550  5850 550  7500
-Wire Notes Line
-	550  7500 1550 7500
-Wire Notes Line
-	1550 7500 1550 5850
-Wire Notes Line
-	1550 5850 550  5850
 Wire Wire Line
 	4450 3000 4450 3400
 Wire Wire Line
@@ -1529,7 +1515,7 @@ Wire Wire Line
 Text Label 7850 3400 0    60   ~ 0
 LED
 Text Notes 7100 3650 0    60   ~ 0
-LED Connected to PA27\n
+LED Connected to PA07\n
 Wire Wire Line
 	7100 3400 7250 3400
 $Comp
@@ -1561,7 +1547,7 @@ L ATSAMD21E16B U5
 U 1 1 5914505E
 P 4750 2400
 F 0 "U5" H 4200 2950 60  0000 C CNN
-F 1 "ATSAMD21E18A" H 5500 1950 60  0000 C CNN
+F 1 "ATSAMD21E16B" H 5500 1950 60  0000 C CNN
 F 2 "OSTFootprints:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4100 2850 60  0001 C CNN
 F 3 "http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf" H 4200 2950 60  0001 C CNN
 F 4 "DigiKey" H 4300 3050 60  0001 C CNN "Supplier 1"
@@ -1656,4 +1642,66 @@ F 4 "dnf" H 1900 3900 60  0001 C CNN "fit_field"
 	1    0    0    -1  
 $EndComp
 Connection ~ 4450 3300
+$Comp
+L Q_NMOS_GSD Q7
+U 1 1 59882BA0
+P 1000 6700
+F 0 "Q7" H 1300 6750 50  0000 R CNN
+F 1 "BSH103" H 1500 6650 50  0000 R CNN
+F 2 "OSTFootprints:SOT-23-HandSoldering" H 1200 6800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSH103.pdf" H 1000 6700 50  0001 C CNN
+F 4 "1727-4319-1-ND" H 1000 6700 60  0001 C CNN "Supplier 1 Part Number"
+F 5 "Digikey" H 1000 6700 60  0001 C CNN "Supplier 1"
+F 6 "0.419" H 1000 6700 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" H 1000 6700 60  0001 C CNN "Supplier 1 Currency"
+	1    1000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 59884DBA
+P 1100 6250
+F 0 "R12" V 1180 6250 50  0000 C CNN
+F 1 "100k" V 1100 6250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1030 6250 50  0001 C CNN
+F 3 "" H 1100 6250 50  0000 C CNN
+	1    1100 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6050 1100 6050
+Wire Wire Line
+	1100 6050 1100 6100
+Wire Wire Line
+	1100 6400 1100 6500
+Wire Wire Line
+	1100 6450 1250 6450
+Connection ~ 1100 6450
+$Comp
+L GND #PWR044
+U 1 1 598858A4
+P 1100 6950
+F 0 "#PWR044" H 1100 6700 50  0001 C CNN
+F 1 "GND" H 1100 6800 50  0000 C CNN
+F 2 "" H 1100 6950 50  0000 C CNN
+F 3 "" H 1100 6950 50  0000 C CNN
+	1    1100 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 6950 1100 6900
+Wire Wire Line
+	700  6700 700  7350
+Wire Wire Line
+	700  6700 800  6700
+Wire Notes Line
+	550  5850 2050 5850
+Wire Notes Line
+	2050 5850 2050 7600
+Wire Notes Line
+	2050 7600 550  7600
+Wire Notes Line
+	550  7600 550  5850
+Wire Wire Line
+	4950 1700 4950 1200
 $EndSCHEMATC
