@@ -3,10 +3,10 @@
   (general
     (links 164)
     (no_connects 2)
-    (area 188.924999 94.158999 219.075001 127.075001)
+    (area 20.235999 76.034899 238.785402 191.255001)
     (thickness 1.6)
     (drawings 501)
-    (tracks 541)
+    (tracks 540)
     (zones 0)
     (modules 88)
     (nets 55)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Manufacturing Outputs/Rev1/"))
+      (outputdirectory "Manufacturing Outputs/Rev1.1/"))
   )
 
   (net 0 "")
@@ -3700,7 +3700,6 @@
   (segment (start 200.862421 114.70161) (end 200.330579 114.70161) (width 0.2032) (layer F.Cu) (net 51))
   (segment (start 200.330579 114.70161) (end 199.8345 115.197689) (width 0.2032) (layer F.Cu) (net 51))
   (segment (start 199.8345 115.197689) (end 199.8345 115.514703) (width 0.2032) (layer F.Cu) (net 51))
-  (segment (start 190.181 113.792) (end 190.119 113.73) (width 0.2032) (layer B.Cu) (net 51))
   (segment (start 193.929 114.427) (end 193.294 113.792) (width 0.2032) (layer F.Cu) (net 51))
   (via (at 191.389 113) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 51))
   (segment (start 205.74 121.239589) (end 205.74 120.815325) (width 0.2032) (layer F.Cu) (net 51))

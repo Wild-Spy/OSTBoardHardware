@@ -162,6 +162,11 @@ F 0 "R1" V 780 1500 50  0000 C CNN
 F 1 "10k" V 700 1500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 630 1500 50  0001 C CNN
 F 3 "" H 700 1500 50  0000 C CNN
+F 4 "DigiKey" V 700 1500 60  0001 C CNN "Supplier 1"
+F 5 "311-10KGRCT-ND" V 700 1500 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.006" V 700 1500 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" V 700 1500 60  0001 C CNN "Supplier 1 Currency"
+F 8 "5%" V 700 1500 60  0001 C CNN "Accuracy"
 	1    700  1500
 	1    0    0    -1  
 $EndComp
@@ -220,7 +225,7 @@ F 2 "OSTFootprints:SC88(SOT363)" H 7550 2050 60  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 7900 2250 60  0001 C CNN
 F 4 "DigiKey" H 7450 1850 60  0001 C CNN "Supplier 1"
 F 5 "UM6K33NTNTR-ND" H 7550 1950 60  0001 C CNN "Supplier 1 Part Number"
-F 6 "$0.08638" H 7650 2050 60  0001 C CNN "Supplier 1 Cost"
+F 6 "0.08638" H 7650 2050 60  0001 C CNN "Supplier 1 Cost"
 F 7 "AUD" H 7750 2150 60  0001 C CNN "Supplier 1 Currency"
 	1    7350 1550
 	1    0    0    -1  
@@ -235,7 +240,7 @@ F 2 "OSTFootprints:SC88(SOT363)" H 7550 3150 60  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 7900 3350 60  0001 C CNN
 F 4 "DigiKey" H 7450 2950 60  0001 C CNN "Supplier 1"
 F 5 "UM6K33NTNTR-ND" H 7550 3050 60  0001 C CNN "Supplier 1 Part Number"
-F 6 "$0.08638" H 7650 3150 60  0001 C CNN "Supplier 1 Cost"
+F 6 "0.08638" H 7650 3150 60  0001 C CNN "Supplier 1 Cost"
 F 7 "AUD" H 7750 3250 60  0001 C CNN "Supplier 1 Currency"
 	1    7350 2650
 	1    0    0    -1  
@@ -278,7 +283,7 @@ F 2 "OSTFootprints:SC88(SOT363)" H 9450 2050 60  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 9800 2250 60  0001 C CNN
 F 4 "DigiKey" H 9350 1850 60  0001 C CNN "Supplier 1"
 F 5 "UM6K33NTNTR-ND" H 9450 1950 60  0001 C CNN "Supplier 1 Part Number"
-F 6 "$0.08638" H 9550 2050 60  0001 C CNN "Supplier 1 Cost"
+F 6 "0.08638" H 9550 2050 60  0001 C CNN "Supplier 1 Cost"
 F 7 "AUD" H 9650 2150 60  0001 C CNN "Supplier 1 Currency"
 	2    9250 1550
 	1    0    0    -1  
@@ -349,7 +354,7 @@ F 2 "OSTFootprints:SC88(SOT363)" H 9450 3150 60  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k33n.pdf" H 9800 3350 60  0001 C CNN
 F 4 "DigiKey" H 9350 2950 60  0001 C CNN "Supplier 1"
 F 5 "UM6K33NTNTR-ND" H 9450 3050 60  0001 C CNN "Supplier 1 Part Number"
-F 6 "$0.08638" H 9550 3150 60  0001 C CNN "Supplier 1 Cost"
+F 6 "0.08638" H 9550 3150 60  0001 C CNN "Supplier 1 Cost"
 F 7 "AUD" H 9650 3250 60  0001 C CNN "Supplier 1 Currency"
 	2    9250 2650
 	1    0    0    -1  
@@ -374,17 +379,6 @@ F 3 "" H 1200 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
-U 1 1 5808B744
-P 850 1500
-F 0 "R2" V 930 1500 50  0000 C CNN
-F 1 "10k" V 850 1500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 780 1500 50  0001 C CNN
-F 3 "" H 850 1500 50  0000 C CNN
-	1    850  1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R4
 U 1 1 5808B89A
 P 7400 1150
@@ -392,52 +386,12 @@ F 0 "R4" V 7480 1150 50  0000 C CNN
 F 1 "100k" V 7400 1150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 1150 50  0001 C CNN
 F 3 "" H 7400 1150 50  0000 C CNN
+F 4 "DigiKey" V 7400 1150 60  0001 C CNN "Supplier 1"
+F 5 "311-100KGRCT-ND" V 7400 1150 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.006" V 7400 1150 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" V 7400 1150 60  0001 C CNN "Supplier 1 Currency"
 	1    7400 1150
 	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 5808BB06
-P 7400 2250
-F 0 "R5" V 7480 2250 50  0000 C CNN
-F 1 "100k" V 7400 2250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 2250 50  0001 C CNN
-F 3 "" H 7400 2250 50  0000 C CNN
-	1    7400 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R6
-U 1 1 5808BB73
-P 9300 1150
-F 0 "R6" V 9380 1150 50  0000 C CNN
-F 1 "100k" V 9300 1150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9230 1150 50  0001 C CNN
-F 3 "" H 9300 1150 50  0000 C CNN
-	1    9300 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R7
-U 1 1 5808BC05
-P 9300 2250
-F 0 "R7" V 9380 2250 50  0000 C CNN
-F 1 "100k" V 9300 2250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9230 2250 50  0001 C CNN
-F 3 "" H 9300 2250 50  0000 C CNN
-	1    9300 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C2
-U 1 1 5808CBFF
-P 2800 1550
-F 0 "C2" H 2700 1450 50  0000 L CNN
-F 1 "0.1uF" H 2580 1614 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2800 1550 50  0001 C CNN
-F 3 "" H 2800 1550 50  0000 C CNN
-	1    2800 1550
-	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 Battery1
@@ -531,17 +485,6 @@ F 2 "" H 2400 3150 50  0000 C CNN
 F 3 "" H 2400 3150 50  0000 C CNN
 	1    2400 3150
 	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C1
-U 1 1 58093137
-P 2500 2050
-F 0 "C1" H 2300 2150 50  0000 L CNN
-F 1 "0.1uF" H 2200 2050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2500 2050 50  0001 C CNN
-F 3 "" H 2500 2050 50  0000 C CNN
-	1    2500 2050
-	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR019
@@ -679,7 +622,7 @@ F 2 "Capacitors_SMD:C_0603" H 2310 3220 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL10B225KQ8NFNC.pdf" H 2410 3320 50  0001 C CNN
 F 4 "DigiKey" H 2510 3420 60  0001 C CNN "Supplier 1"
 F 5 "1276-2017-1-ND" H 2610 3520 60  0001 C CNN "Supplier 1 Part Number"
-F 6 "0.0337" H 2710 3620 60  0001 C CNN "Supplier 1 Cost"
+F 6 "0.0356" H 2710 3620 60  0001 C CNN "Supplier 1 Cost"
 F 7 "AUD" H 2810 3720 60  0001 C CNN "Supplier 1 Currency"
 F 8 "2.2uF" H 2550 3150 60  0000 C CNN "Capacitance"
 F 9 "X7R" H 3010 3920 60  0001 C CNN "Temperature Coefficient"
@@ -726,6 +669,10 @@ F 0 "C3" H 4350 3400 50  0000 L CNN
 F 1 "0.1uF" H 4220 3572 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4450 3500 50  0001 C CNN
 F 3 "" H 4450 3500 50  0000 C CNN
+F 4 "DigiKey" H 4450 3500 60  0001 C CNN "Supplier 1"
+F 5 "1276-1011-1-ND" H 4450 3500 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.0062" H 4450 3500 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" H 4450 3500 60  0001 C CNN "Supplier 1 Currency"
 	1    4450 3500
 	1    0    0    -1  
 $EndComp
@@ -737,6 +684,10 @@ F 0 "C6" H 4750 1050 50  0000 L CNN
 F 1 "1uF" H 4698 1218 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4850 1150 50  0001 C CNN
 F 3 "" H 4850 1150 50  0000 C CNN
+F 4 "DigiKey" H 4850 1150 60  0001 C CNN "Supplier 1"
+F 5 "1276-1182-1-ND" H 4850 1150 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.018" H 4850 1150 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" H 4850 1150 60  0001 C CNN "Supplier 1 Currency"
 	1    4850 1150
 	0    1    1    0   
 $EndComp
@@ -772,17 +723,6 @@ F 2 "" H 4950 900 50  0000 C CNN
 F 3 "" H 4950 900 50  0000 C CNN
 	1    4950 900 
 	0    -1   -1   0   
-$EndComp
-$Comp
-L C_Small C4
-U 1 1 5908A7AE
-P 4850 900
-F 0 "C4" H 4752 834 50  0000 L CNN
-F 1 "0.1uF" H 4550 900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4850 900 50  0001 C CNN
-F 3 "" H 4850 900 50  0000 C CNN
-	1    4850 900 
-	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR028
@@ -856,6 +796,11 @@ F 0 "R9" V 2130 4950 50  0000 C CNN
 F 1 "1k" V 2050 4950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1980 4950 50  0001 C CNN
 F 3 "" H 2050 4950 50  0000 C CNN
+F 4 "5%" V 2050 4950 60  0001 C CNN "Accuracy"
+F 5 "DigiKey" V 2050 4950 60  0001 C CNN "Supplier 1"
+F 6 "311-1.0KGRCT-ND" V 2050 4950 60  0001 C CNN "Supplier 1 Part Number"
+F 7 "0.006" V 2050 4950 60  0001 C CNN "Supplier 1 Cost"
+F 8 "AUD" V 2050 4950 60  0001 C CNN "Supplier 1 Currency"
 	1    2050 4950
 	1    0    0    -1  
 $EndComp
@@ -867,6 +812,11 @@ F 0 "R10" V 2130 5250 50  0000 C CNN
 F 1 "2k" V 2050 5250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1980 5250 50  0001 C CNN
 F 3 "" H 2050 5250 50  0000 C CNN
+F 4 "5%" V 2050 5250 60  0001 C CNN "Accuracy"
+F 5 "DigiKey" V 2050 5250 60  0001 C CNN "Supplier 1"
+F 6 "311-2.0KGRCT-ND" V 2050 5250 60  0001 C CNN "Supplier 1 Part Number"
+F 7 "0.006" V 2050 5250 60  0001 C CNN "Supplier 1 Cost"
+F 8 "AUD" V 2050 5250 60  0001 C CNN "Supplier 1 Currency"
 	1    2050 5250
 	1    0    0    -1  
 $EndComp
@@ -1018,19 +968,11 @@ F 1 "150k" V 1550 6900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1480 6900 50  0001 C CNN
 F 3 "" H 1550 6900 50  0000 C CNN
 F 4 "5%" V 1550 6900 60  0001 C CNN "Accuracy"
+F 5 "DigiKey" V 1550 6900 60  0001 C CNN "Supplier 1"
+F 6 "311-150KGRCT-ND" V 1550 6900 60  0001 C CNN "Supplier 1 Part Number"
+F 7 "0.006" V 1550 6900 60  0001 C CNN "Supplier 1 Cost"
+F 8 "AUD" V 1550 6900 60  0001 C CNN "Supplier 1 Currency"
 	1    1550 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R8
-U 1 1 5911D869
-P 1550 7200
-F 0 "R8" V 1630 7200 50  0000 C CNN
-F 1 "10k" V 1550 7200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1480 7200 50  0001 C CNN
-F 3 "" H 1550 7200 50  0000 C CNN
-F 4 "5%" V 1550 7200 60  0001 C CNN "Accuracy"
-	1    1550 7200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1128,24 +1070,17 @@ PA09
 Text Notes 2800 5050 0    60   ~ 0
 Peripheral Bus
 $Comp
-L R R11
-U 1 1 591137B5
-P 7700 3400
-F 0 "R11" V 7780 3400 50  0000 C CNN
-F 1 "1k" V 7700 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7630 3400 50  0001 C CNN
-F 3 "" H 7700 3400 50  0000 C CNN
-	1    7700 3400
-	0    1    1    0   
-$EndComp
-$Comp
 L LED-RESCUE-Wild_Spy_Open_Source_Timer D1
 U 1 1 59114154
 P 7400 3400
 F 0 "D1" H 7400 3500 50  0000 C CNN
 F 1 "LED" H 7400 3300 50  0000 C CNN
 F 2 "OSTFootprints:LED_0603" H 7400 3400 50  0001 C CNN
-F 3 "" H 7400 3400 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00128792_0.pdf" H 7400 3400 50  0001 C CNN
+F 4 "DigiKey" H 7400 3400 60  0001 C CNN "Supplier 1"
+F 5 "475-2512-1-ND" H 7400 3400 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "AUD" H 7400 3400 60  0001 C CNN "Supplier 1 Currency"
+F 7 "0.13080" H 7400 3400 60  0001 C CNN "Supplier 1 Cost"
 	1    7400 3400
 	1    0    0    -1  
 $EndComp
@@ -1553,6 +1488,8 @@ F 3 "http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf" H 4200 2950 
 F 4 "DigiKey" H 4300 3050 60  0001 C CNN "Supplier 1"
 F 5 "1611-ATSAMD21E18A-MUTCT-ND" H 4400 3150 60  0001 C CNN "Supplier 1 Part Number"
 F 6 "ATSAMD21E18A-MUT" H 4500 3250 60  0001 C CNN "Manufacturer Part Number"
+F 7 "3.014" H 4750 2400 60  0001 C CNN "Supplier 1 Cost"
+F 8 "AUD" H 4750 2400 60  0001 C CNN "Supplier 1 Currency"
 	1    4750 2400
 	1    0    0    -1  
 $EndComp
@@ -1599,9 +1536,9 @@ F 1 "ORD213" H 7950 4250 50  0000 C CNN
 F 2 "OSTFootprints:ORD213S-1" H 8380 4690 60  0001 C CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/OKI_Reed_Switch_ORD213.pdf" H 8050 4600 60  0001 C CNN
 F 4 "Digi Key" H 8050 4550 60  0001 C CNN "Supplier 1"
-F 5 "374-1087-ND" H 8150 4650 60  0001 C CNN "Supplier Part Number 1"
-F 6 "2.07" H 8250 4750 60  0001 C CNN "Supplier Cost 1"
-F 7 "AUD" H 8350 4850 60  0001 C CNN "Supplier Currency 1"
+F 5 "374-1087-ND" H 8150 4650 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "2.07" H 8250 4750 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" H 8350 4850 60  0001 C CNN "Supplier 1 Currency"
 F 8 "Standex-Meder Electronics" H 8450 4950 60  0001 C CNN "Manufacturer 1"
 F 9 "ORD213S-1-1015" H 8550 5050 60  0001 C CNN "Manufacturer Part Number 1"
 F 10 "24 V" H 8650 5150 60  0001 C CNN "Rated Voltage"
@@ -1704,4 +1641,142 @@ Wire Notes Line
 	550  7600 550  5850
 Wire Wire Line
 	4950 1700 4950 1200
+$Comp
+L C_Small C1
+U 1 1 59900E8E
+P 2500 2050
+F 0 "C1" H 2400 1950 50  0000 L CNN
+F 1 "0.1uF" H 2550 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2500 2050 50  0001 C CNN
+F 3 "" H 2500 2050 50  0000 C CNN
+F 4 "DigiKey" H 2500 2050 60  0001 C CNN "Supplier 1"
+F 5 "1276-1011-1-ND" H 2500 2050 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.0062" H 2500 2050 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" H 2500 2050 60  0001 C CNN "Supplier 1 Currency"
+	1    2500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 5990157E
+P 2800 1550
+F 0 "C2" H 2850 1450 50  0000 L CNN
+F 1 "0.1uF" H 2800 1600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2800 1550 50  0001 C CNN
+F 3 "" H 2800 1550 50  0000 C CNN
+F 4 "DigiKey" H 2800 1550 60  0001 C CNN "Supplier 1"
+F 5 "1276-1011-1-ND" H 2800 1550 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.0062" H 2800 1550 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" H 2800 1550 60  0001 C CNN "Supplier 1 Currency"
+	1    2800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 59903161
+P 4850 900
+F 0 "C4" H 4750 800 50  0000 L CNN
+F 1 "0.1uF" H 4600 1000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4850 900 50  0001 C CNN
+F 3 "" H 4850 900 50  0000 C CNN
+F 4 "DigiKey" H 4850 900 60  0001 C CNN "Supplier 1"
+F 5 "1276-1011-1-ND" H 4850 900 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.0062" H 4850 900 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" H 4850 900 60  0001 C CNN "Supplier 1 Currency"
+	1    4850 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5990A7DF
+P 7400 2250
+F 0 "R5" V 7480 2250 50  0000 C CNN
+F 1 "100k" V 7400 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 2250 50  0001 C CNN
+F 3 "" H 7400 2250 50  0000 C CNN
+F 4 "DigiKey" V 7400 2250 60  0001 C CNN "Supplier 1"
+F 5 "311-100KGRCT-ND" V 7400 2250 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.006" V 7400 2250 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" V 7400 2250 60  0001 C CNN "Supplier 1 Currency"
+	1    7400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5990A8D1
+P 9300 1150
+F 0 "R6" V 9380 1150 50  0000 C CNN
+F 1 "100k" V 9300 1150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9230 1150 50  0001 C CNN
+F 3 "" H 9300 1150 50  0000 C CNN
+F 4 "DigiKey" V 9300 1150 60  0001 C CNN "Supplier 1"
+F 5 "311-100KGRCT-ND" V 9300 1150 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.006" V 9300 1150 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" V 9300 1150 60  0001 C CNN "Supplier 1 Currency"
+	1    9300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5990A982
+P 9300 2250
+F 0 "R7" V 9380 2250 50  0000 C CNN
+F 1 "100k" V 9300 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9230 2250 50  0001 C CNN
+F 3 "" H 9300 2250 50  0000 C CNN
+F 4 "DigiKey" V 9300 2250 60  0001 C CNN "Supplier 1"
+F 5 "311-100KGRCT-ND" V 9300 2250 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.006" V 9300 2250 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" V 9300 2250 60  0001 C CNN "Supplier 1 Currency"
+	1    9300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5990F552
+P 850 1500
+F 0 "R2" V 930 1500 50  0000 C CNN
+F 1 "10k" V 850 1500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 780 1500 50  0001 C CNN
+F 3 "" H 850 1500 50  0000 C CNN
+F 4 "DigiKey" V 850 1500 60  0001 C CNN "Supplier 1"
+F 5 "311-10KGRCT-ND" V 850 1500 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.006" V 850 1500 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" V 850 1500 60  0001 C CNN "Supplier 1 Currency"
+F 8 "5%" V 850 1500 60  0001 C CNN "Accuracy"
+	1    850  1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5990F614
+P 1550 7200
+F 0 "R8" V 1630 7200 50  0000 C CNN
+F 1 "10k" V 1550 7200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1480 7200 50  0001 C CNN
+F 3 "" H 1550 7200 50  0000 C CNN
+F 4 "DigiKey" V 1550 7200 60  0001 C CNN "Supplier 1"
+F 5 "311-10KGRCT-ND" V 1550 7200 60  0001 C CNN "Supplier 1 Part Number"
+F 6 "0.006" V 1550 7200 60  0001 C CNN "Supplier 1 Cost"
+F 7 "AUD" V 1550 7200 60  0001 C CNN "Supplier 1 Currency"
+F 8 "5%" V 1550 7200 60  0001 C CNN "Accuracy"
+	1    1550 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 59913E8D
+P 7700 3400
+F 0 "R11" V 7780 3400 50  0000 C CNN
+F 1 "1k" V 7700 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7630 3400 50  0001 C CNN
+F 3 "" H 7700 3400 50  0000 C CNN
+F 4 "5%" V 7700 3400 60  0001 C CNN "Accuracy"
+F 5 "DigiKey" V 7700 3400 60  0001 C CNN "Supplier 1"
+F 6 "311-1.0KGRCT-ND" V 7700 3400 60  0001 C CNN "Supplier 1 Part Number"
+F 7 "0.006" V 7700 3400 60  0001 C CNN "Supplier 1 Cost"
+F 8 "AUD" V 7700 3400 60  0001 C CNN "Supplier 1 Currency"
+	1    7700 3400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

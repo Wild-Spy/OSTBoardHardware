@@ -1,0 +1,36 @@
+### Module positions - created on Sun 13 Aug 2017 19:26:44 AEST ###
+### Printed by Pcbnew version kicad 4.0.2+dfsg1-stable
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val              Package                              PosX       PosY       Rot  Side
+C1        0.1uF            C_0603_HandSoldering               0.9591     0.9350  180.0000  bottom
+C2        0.1uF            C_0603_HandSoldering               0.3341     0.7600   90.0000  bottom
+C3        0.1uF            C_0603_HandSoldering               0.7791     0.4100  270.0000  bottom
+C4        0.1uF            C_0603_HandSoldering               0.4091     0.4724  270.0000  bottom
+C5        CL10A105KB8NNNC  C_0805                             1.1000     0.2750  180.0000  bottom
+C6        1uF              C_0603_HandSoldering               0.4091     0.3226   90.0000  bottom
+C8        CL10B225KQ8NFNC  C_0603                             1.0991     0.5350  180.0000  bottom
+D1        LED              LED_0603                           0.2457     0.0319  180.0000  bottom
+Q1        AO3415           SOT-23-HandSoldering               0.2441     0.3050   90.0000  bottom
+Q2        AO3415           SOT-23-HandSoldering               0.2591     1.0850  270.0000  bottom
+Q3        AO3415           SOT-23-HandSoldering               0.9591     1.0850  270.0000  bottom
+Q4        AO3415           SOT-23-HandSoldering               0.2217     0.7838  270.0000  bottom
+Q5        AO3415           SOT-23-HandSoldering               0.9591     0.7338  270.0000  bottom
+Q6        AO3415           SOT-23-HandSoldering               0.9016     0.2520  180.0000  bottom
+Q7        BSH103           SOT-23-HandSoldering               0.2402     0.5433    0.0000  bottom
+R1        10k              R_0603_HandSoldering               0.8591     0.5250    0.0000  bottom
+R2        10k              R_0603_HandSoldering               0.8591     0.5900    0.0000  bottom
+R3        150k             R_0603_HandSoldering               0.8937     0.4055  180.0000  bottom
+R4        100k             R_0603_HandSoldering               0.2591     1.2100  180.0000  bottom
+R5        100k             R_0603_HandSoldering               0.9591     1.2100  180.0000  bottom
+R6        100k             R_0603_HandSoldering               0.2407     0.9100  180.0000  bottom
+R7        100k             R_0603_HandSoldering               0.9591     0.8600  180.0000  bottom
+R8        10k              R_0603_HandSoldering               0.8937     0.3425    0.0000  bottom
+R9        1k               R_0603_HandSoldering               0.8191     0.0850  270.0000  bottom
+R10       2k               R_0603_HandSoldering               0.8791     0.0850  270.0000  bottom
+R11       1k               R_0603_HandSoldering               0.2476     0.0878  180.0000  bottom
+R12       100k             R_0603_HandSoldering               0.1339     0.2402   90.0000  bottom
+U1        DS3232SN         SOIC-20_7.5x12.8mm_Pitch1.27mm     0.6091     0.8850    0.0000  bottom
+U2        TPS70933DBVR     SOT-23-5_HandSoldering             1.0991     0.4119   90.0000  bottom
+U5        ATSAMD21E16B     QFN-32-1EP_5x5mm_Pitch0.5mm        0.5930     0.3690  270.0000  bottom
+## End
